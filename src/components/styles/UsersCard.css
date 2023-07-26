@@ -1,0 +1,79 @@
+.usercard_info-wraper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px
+}
+
+.usercard__wrapp {
+    background-color: rgb(204, 245, 231);
+    border-radius: 15px 10px 30px;
+    padding: 0.8em;
+    margin: 0.5em;
+    max-width: 100%;
+    background: linear-gradient(315deg, #91d2cf, #d5ebea);
+    box-shadow:  -10px -5px 62px #a9bbba,
+            10px 5px 62px #e5fdfc;
+}
+
+.usercard__firstname {
+    padding: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.usercard__container{
+    margin: 5px;
+}
+.usercard__group{
+    padding: 5px;
+}
+.group__input{
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0;
+    font-weight: 300;
+    color: rgba(164, 159, 159, 0.751)
+}
+.group__info{
+    font-weight: 600;
+}
+
+.usercard__icons{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    align-items: center;
+}
+
+.btn__trash__user{
+    margin: 7px;
+    background-color: rgba(249, 30, 30, 0.725);
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid;
+    color:#e5fdfc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn__trash__user:hover{
+    transform:scale(1.08)
+}
+
+.btn__edit__user {
+    background-color: rgba(51, 227, 28, 0.681);
+    border: 1px solid;
+    border-radius: 5px;
+    color:#e5fdfc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+.btn__edit__user:hover{
+    transform:scale(1.08)
+}

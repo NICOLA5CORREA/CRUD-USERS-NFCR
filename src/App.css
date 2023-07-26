@@ -1,0 +1,31 @@
+.title__page {
+    position: relative;
+    margin: 16px;
+    left: 2%;
+}
+
+.btn__form {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.5em;
+    background-color: rgb(21, 161, 89);
+    color: white;
+    border-radius: 0.4em;
+    position: absolute;
+    right: 5%;
+    top: 2.5%;
+}
+
+.btn__form:hover {
+    background-color: #16e470;
+    transform:scale(1.08)
+}
+
+.usercard_info-wraper {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 16px;
+}
