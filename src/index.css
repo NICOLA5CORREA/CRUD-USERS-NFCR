@@ -4,8 +4,6 @@
     box-sizing: border-box;
     font-family: 'roboto', arial, helvetica;
     scroll-behavior: smooth;
-    display:flex;
-    flex:wrap;
 }
 
 body {
